@@ -1,3 +1,0 @@
-# gregorymarande.github.io
-
-Hello
