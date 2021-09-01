@@ -1,0 +1,132 @@
+#claim {
+  background-color: #fff;
+  margin-top: 264px;
+  margin-bottom: -145px;
+  width: 100%;
+}
+
+#claim h1, #claim p {
+  position: relative;
+  top: -145px;
+  margin: 0 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#claim h1 {
+  line-height: 137.5%;
+}
+
+#claim p {
+  line-height: 165%;
+}
+
+#claim h1 {
+  font-size: 1.5em;
+}
+
+#claim p {
+  margin-top: 25px;
+  font-size: 1.2em;
+}
+
+.home-separator {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* #stamp-home {
+  max-width: 1200px;
+  height: 108px;
+  margin: 15px auto;
+}
+
+#stamp-home img {
+  margin-left: 37px;
+  height: 108px;
+} */
+
+@media (min-width: 567px) {
+  /* #stamp-home {
+    height: 144px;
+  }
+
+  #stamp-home img {
+    height: 144px;
+  } */
+}
+
+@media (min-width: 768px) {
+  #claim {
+    margin-top: 528px;
+    margin-bottom: -280px;
+  }
+
+  #claim h1, #claim p {
+    top: -280px;
+    margin: 0 30px;
+  }
+
+  #claim h1 {
+    font-size: 2.3em;
+  }
+
+  #claim p {
+    margin-top: 50px;
+    font-size: 1.75em;
+  }
+
+  .home-separator {
+    margin-top: 100px;
+  }
+
+  .home-separator svg {
+    width: 25px;
+    height: 84px;
+  }
+
+  /* #stamp-home {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #stamp-home img {
+    margin-left: 75px;
+  } */
+}
+
+@media (min-width: 989px) {
+  #claim {
+    margin-bottom: -310px;
+  }
+
+  #claim h1, #claim p {
+    top: -310px;
+    max-width: 929px;
+  }
+
+  #claim h1, #claim p {
+    margin: auto;
+  }
+
+  #claim h1 {
+    font-size: 2.5em;
+  }
+
+  #claim p {
+    margin-top: 50px;
+    font-size: 1.875em;
+  }
+}
+
+/* @media (min-width: 992px) {
+  #stamp-home {
+    height: 216px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #stamp-home img {
+    height: 216px;
+  }
+} */

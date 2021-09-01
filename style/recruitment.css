@@ -1,0 +1,296 @@
+#stamp-recruitment {
+  position: absolute;
+  top: 225px;
+  text-align: center;
+}
+
+#stamp-recruitment img {
+  width: 78px;
+  margin-bottom: 20px;
+}
+
+#offer-recruitment {
+  margin-top: 264px;
+  padding-top: 55px;
+}
+
+#offer-recruitment .offer-details {
+  margin-top: 0;
+  max-width: 921px;
+}
+
+#methodo {
+  background-color: #fff;
+  width: 100%;
+}
+
+.methodo-title {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: min-content;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+  line-height: 105%;
+  color: #E9E9F1;
+}
+
+.methodo-title span {
+  display: block;
+  width: 100%;
+  border-bottom: solid 3px #22FFCA;
+}
+
+.methodo-title span:first-child {
+  padding-top: 20px;
+  border-top: solid 3px #22FFCA;
+}
+
+.methodo-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 921px;
+  margin: 50px 15px;
+}
+
+.methodo-content p, .methodo-content ul {
+  margin: 0 auto;
+}
+
+.methodo-content p {
+  margin-bottom: 1em;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 145.893%;
+}
+
+.methodo-content ul {
+  padding: 0;
+  list-style: none;
+  font-weight: 500;
+  font-size: 0.875em;
+}
+
+.methodo-content li {
+  margin-bottom: 0.875em;
+}
+
+#consulting {
+  background-color: #fff;
+  width:100%;
+  padding: 20px 0 0;
+}
+
+.consulting-content {
+  /* background-color: coral; */
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 921px;
+  margin: 20px 15px 0;
+}
+
+.consulting-content p {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.mapping, .care {
+  position: relative;
+  /* width: 100%; */
+}
+
+.mapping {
+  /* background-color: brown; */
+  /* width: 75%; */
+  margin-bottom: 20px;
+}
+
+.mapping p {
+  position: relative;
+  margin: 80px 50px 0 0;
+}
+
+.mapping svg {
+  position: absolute;
+  right: 0;
+}
+
+.care {  
+  width: 100%;
+  /* justify-content: center; */
+  text-align: right;
+}
+
+.care p {
+  position: relative;
+  margin: 80px 0 0;
+}
+
+.care svg {
+  position: absolute;
+  right: 95px;
+}
+
+.btn {
+  width: 100%;
+  padding: 40px 0 55px;
+}
+
+@media (min-width: 400px) {
+  .methodo-title {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 576px) {
+  .methodo-title {
+    font-size: 5em;
+  }
+
+  .methodo-content {
+    flex-wrap: nowrap;
+  }
+
+  .methodo-content p {
+    min-width: min-content;
+    max-width: 33.333%;
+    padding-right: 22px;
+    font-size: 1.281em;
+  }
+
+  .methodo-content ul {
+    font-size: 1em;
+    padding-left: 22px;
+  }
+
+  .methodo-content li {
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    position: relative;
+  }
+
+  .consulting-content {
+    position: relative;
+    top: -60px;
+    margin: 0 15px -60px;
+  }
+
+  .consulting-content p {
+    font-size: 1.5em;
+  }
+
+  .mapping, .care {
+    width: calc(50% - 1px);
+  }
+
+  .mapping {
+    align-self: flex-end;
+    margin-top: 140px;
+  }
+
+  .mapping p {
+    margin: 80px 0 0;
+  }
+
+  .mapping svg {
+    right: 50px;
+  }
+
+  .border {
+    background-color: #E9E9F1;
+    margin-top: 40px;
+    width: 2px;
+    height: 240px;
+  }
+
+  .btn {
+    position: relative;
+    bottom: 42px;
+    margin-bottom: -42px;
+    padding: 0 0 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #stamp-recruitment {
+    top: 450px;
+  }
+
+  #stamp-recruitment img {
+    width: 157px;
+  }
+
+  #offer-recruitment {
+    margin-top: 528px;
+    padding-top: 90px;
+  }
+
+  .methodo-title {
+    font-size: 7em;
+  }
+
+  .methodo-content {
+    margin: 80px 30px;
+  }
+
+  .methodo-content p {
+    font-size: 1.75em;
+  }
+
+  .methodo-content ul {
+    font-size: 1.25em;
+  }
+
+  .methodo-content li {
+    margin-bottom: 1.25em;
+  }
+
+  .consulting-content {
+    top: -110px;
+    margin: 0 30px -110px;
+  }
+
+  .consulting-content p {
+    font-size: 2.25em;
+  }
+
+  .mapping svg{
+    width: 171px;
+    height: 186px;
+  }
+  
+  .care svg {
+    width: 240px;
+    height: 150px;
+  }
+
+  .border {
+    height: 277px;
+  }
+
+  .btn {
+    padding: 0 0 110px;
+  }
+}
+
+@media (min-width: 981px) {
+  #offer-recruitment .offer-details {
+    margin: 0 auto;
+  }
+
+  .methodo-content {
+    margin: 80px auto;
+  }
+
+  .methodo-title {
+    font-size: 8.625em;
+  }
+
+  .consulting-content {
+    margin: 0 auto -110px;
+  }
+}

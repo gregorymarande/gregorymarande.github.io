@@ -1,0 +1,166 @@
+#consulting-care {
+  margin-top: 264px;
+  padding-top: 30px;
+}
+
+#consulting {
+  max-width: 1200px;
+  margin: 0 15px;
+}
+
+.mapping, .care {
+  margin-bottom: 65px;
+}
+
+.mapping {
+  position: relative;
+}
+
+.mapping svg {
+  position: absolute;
+  left: 0;
+}
+
+.mapping .label {
+  padding-top: 30px;
+}
+
+.mapping div {
+  position: relative;
+}
+
+.label {
+  position: relative;
+  font-weight: 800;
+  font-size: 1.75em;
+}
+
+.care {
+  position: relative;
+  text-align: right;
+}
+
+.care svg {
+  position: absolute;
+  left: 0;
+}
+
+.care .label {
+  padding-top: 25px;
+}
+
+.care div p {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+@media (min-width: 293px) {
+  .mapping svg {
+    left: 45px;
+  }
+}
+
+@media (min-width: 413px) {
+  .mapping svg {
+    left: auto;
+    right: 90px;
+  }
+}
+
+@media (min-width: 576px) {
+  .label {
+    font-size: 2.25em;
+  }
+
+  .mapping div p, .care div p{
+    max-width: 66.666%;
+    font-size: 1.3em;
+  }
+
+  .care svg {
+    right: 260px;
+    left: auto;
+  }
+}
+
+@media (min-width: 702px) {
+  .mapping svg {
+    width: 271px;
+    height: 295px;
+  }
+
+  .care svg {
+    width: 382px;
+    height: 238px;
+  }
+}
+
+@media (min-width: 768px) {
+  #consulting-care {
+    margin-top: 528px;
+    padding-top: 60px;
+  }
+
+  #consulting {
+    margin: 0 30px;
+  }
+
+  .mapping, .care {
+    margin-bottom: 115px;
+  }
+
+  .label {
+    font-size: 2.75em;
+  }
+
+  .mapping div p, .care div p{
+    font-size: 1.75em;
+  }
+
+  .care svg {
+    right: 320px;
+  }
+
+  .mapping .label {
+    padding-top: 65px;
+  }
+
+  .care .label {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mapping svg {
+    width: 305px;
+    height: 332px;
+  }
+
+  .label {
+    font-size: 3.44em;
+  }
+
+  .care svg {
+    right: 400px;
+    width: 430px;
+    height: 267px;
+  }
+}
+
+@media (min-width: 1034px) {
+  .mapping svg {
+    width: 407px;
+    height: 443px;
+  }
+
+  .care svg {
+    width: 574px;
+    height: 357px;
+  }
+}
+
+@media (min-width: 1260px) {
+  #consulting {
+    margin: 0 auto;
+  }
+}
