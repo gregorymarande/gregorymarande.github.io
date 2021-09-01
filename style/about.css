@@ -1,0 +1,101 @@
+#stamp-about {
+  position: absolute;
+  top: 150px;
+}
+
+#stamp-about div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 95px;
+}
+
+#stamp-about img {
+  width: 95px;
+}
+
+#bio {
+  margin-top: 264px;
+  padding-top: 42px;
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 70px;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 132.411%;
+}
+
+#bio-content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#bio-content img {
+  margin-top: -102px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  width: 50%;
+  max-width: 597px;
+  float: right;
+}
+
+#bio-content p {
+  margin: 0 15px 1em 15px;
+}
+
+#offer-about {
+  /* margin-top: 0px; */
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+  #bio {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 768px) {
+  #stamp-about {
+    top: 300px;
+  }
+
+  #stamp-about div {
+    padding-left: 190px;
+  }
+
+  #stamp-about img {
+    width: 190px;
+  }
+
+  #bio {
+    margin-top: 528px;
+    padding-top: 85px;
+    font-size: 1.313em;
+    padding-bottom: 140px;
+  }
+
+  #bio-content p {
+    margin-left: 30px;
+    margin-bottom: 1.313em;
+  }
+
+  #bio-content img {
+    margin-top: -205px;
+    margin-left: 66px;
+  }
+}
+
+@media (min-width: 1260px) {
+  #stamp-about div {
+    padding-left: 0;
+  }
+  
+  #stamp-about img {
+    margin-left: 160px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #bio-content p {
+    margin-left: 50px;
+  }
+}
