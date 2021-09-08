@@ -28,9 +28,9 @@ class HeaderBar extends HTMLElement {
         ['consulting',
           ['conseil-et-mission-integree.html', 'Conseil & Mission intégrée'], ['page4_en.html', 'Page 4 EN']
         ],
-        ['clients',
-          ['nos-clients.html', 'Nos clients'], ['page5_en.html', 'Page 5 EN']
-        ],
+        // ['clients',
+        //   ['nos-clients.html', 'Nos clients'], ['page5_en.html', 'Page 5 EN']
+        // ],
         ['terms',
           ['', ''], ['contact.html', 'Contact us']
         ]
